@@ -4,12 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PS01_4_PassedFailed
+namespace Number4
 {
-    class Program
+    internal class Program
     {
+
+
         static void Main(string[] args)
         {
+
+            string result = (number >= 50) ? "Passed" : "Failed";
+            Console.WriteLine(result);
+
+
         }
     }
 }

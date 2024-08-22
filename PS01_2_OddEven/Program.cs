@@ -4,12 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PS01_2_OddEven
+namespace Number2
 {
-    class Program
+    internal class Program
     {
+
+
         static void Main(string[] args)
         {
+            Console.Write("Enter a number: ");
+            int n = int.Parse(Console.ReadLine());
+            if (n % 2 == 0)
+            {
+                Console.WriteLine($"The number {n} is even");
+            }
+            else
+            {
+                Console.WriteLine($"The number {n} is odd");
+            }
+
         }
     }
 }
